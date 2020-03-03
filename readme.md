@@ -2,6 +2,13 @@
 This script helps to fix the flutter issues with recent MacOSX such as Catalina. You might be prompted to enter the system password since with admin permission.
 
 
+Some errors you might get while using flutter for the first time:
+
+“dart” cannot be opened because the developer cannot be verified.
+“idevicename” cannot be opened because the developer cannot be verified.
+“idevicescreenshot” cannot be opened because the developer cannot be verified.
+“idevicesyslog” cannot be opened because the developer cannot be verified.
+
 
 # How to use:
 ```
