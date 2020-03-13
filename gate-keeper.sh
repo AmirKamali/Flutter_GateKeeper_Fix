@@ -39,6 +39,11 @@ fpath="$FLPATH/bin/cache/artifacts/libimobiledevice/idevicesyslog"
 echo "Adding exception for $fpath"
 sudo xattr -d com.apple.quarantine $fpath
 
+# iproxy
+fpath="$FLPATH/bin/cache/artifacts/usbmuxd/iproxy "
+echo "Adding exception for $fpath"
+sudo xattr -d com.apple.quarantine $fpath
+
 # gen_snapshot
 echo "Adding exception for gen_snapshot"
 sudo xattr -d com.apple.quarantine $fpath "$FLPATH/bin/cache/artifacts/engine/android-x64-release/darwin-x64/gen_snapshot"
